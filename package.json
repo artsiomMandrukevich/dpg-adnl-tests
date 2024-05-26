@@ -1,0 +1,29 @@
+{
+  "name": "dpg-adnl-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dpg-tests": "npx playwright test --project=dpg-media --trace=on"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artsiomMandrukevich/dpg-adnl-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artsiomMandrukevich/dpg-adnl-tests/issues"
+  },
+  "homepage": "https://github.com/artsiomMandrukevich/dpg-adnl-tests#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.12.12",
+    "globals": "^15.3.0",
+    "typescript-eslint": "^7.10.0"
+  }
+}
