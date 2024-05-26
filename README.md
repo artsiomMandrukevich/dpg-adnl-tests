@@ -1,5 +1,3 @@
-# dpg-adnl-tests
-
 # Automation Tests for AD.nl Portal
 
 This project contains a series of automated tests implemented using Playwright to validate the functionalities of the [AD.nl](https://ad.nl) portal.
